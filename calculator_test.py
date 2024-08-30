@@ -11,8 +11,7 @@ largest_testdata = [
 @pytest.mark.parametrize("a,b,output", division_testdata)
 def test_division_numeric(a,b,output):
     assert divide(a,b) == output
-"""
+
 @pytest.mark.parametrize("arr,output", largest_testdata)
 def test_largest_numeric(arr,output):
     assert largest(arr) == output
-"""
